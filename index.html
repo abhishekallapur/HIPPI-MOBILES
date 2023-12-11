@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+
+    <style>
+                .site-grid {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+
+        .site-goods-sku {
+            width: 25%; /* Adjust the width as needed */
+            padding: 0 15px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+
+        .site-goods-sku__info {
+            text-align: center;
+        }
+
+        .site-goods-sku__title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .site-goods-sku__subtitle {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .site-goods-sku__image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .site-text-c {
+            width: 25%;
+            padding: 0 15px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .site-text-c__title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .site-text-c__link {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        #address-wrapper {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 0;
+        }
+
+        #contact-us-section {
+            width: 50%;
+        }
+
+        #subscribe-section {
+            width: 40%; 
+        }
+
+        .input-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .primary-button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+       
+    .buy-button {
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .buy-button:hover {
+        background-color: #0056b3;
+    }
+    .site-goods-sku {
+    transition: transform 0.3s ease-in-out;
+}
+
+.site-goods-sku:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
+.site-goods-sku__info {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
+
+  
+
+    <link rel="stylesheet" href="/index.css" type="text/css" >
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Hippi Mobiles</h2>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            
+            </div>
+            <a class="menu-item" href="">Home</a>
+            <a class="menu-item" href="#store-section">Services</a>
+            <a class="menu-item" href="#ss">Customer</a>
+        </nav>
+        
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"  style="padding-top: 55px;">
+                <img src="./2.jpg" class="d-block w-100" alt="..." style=" width: 100%;
+                height: 90vh;
+                background-image: url('./Fold5ProductMarketing_1440x810.webp');
+             
+                background-position: left;
+                background-size: cover;">
+              </div>
+              <div class="carousel-item"  style="padding-top: 55px;">
+                <img src="./D103643090_WLD_BAU_iQOO_12_5G_New_Launch_catpage_1400x800._CB570508560_.jpg" class="d-block w-100" alt="..." style=" width: 100%;
+                height: 90vh;
+                background-image: url('./Fold5ProductMarketing_1440x810.webp');
+             
+                background-position: left;
+                background-size: cover;">
+              </div>
+              <div class="carousel-item"  style="padding-top: 55px;">
+                <img src="./D105966346_INWLD_Redmi13C_NewLaunch_catpage_1400x8001._CB570483396_.jpg" class="d-block w-100" alt="..." style=" width: 100%;
+                height: 90vh;
+                background-image: url('./Fold5ProductMarketing_1440x810.webp');
+             
+                background-position: left;
+                background-size: cover;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+    </header>
+    <main>
+     <h2 style="margin-left: 45%;">Products</h2>
+     <section class="site-grid site-grid--medium site-grid--quarter" style="margin-left: 250px;">
+        <div class="site-goods-sku site-goods-sku--quarter">
+            <div class="site-goods-sku__info">
+                <div class="site-goods-sku__image">
+                    <img src="./pms_1666598561.94078322!256x256.png" alt="Xiaomi 12T Pro" loading="lazy">
+                </div>
+                <i class="micon micon-link-arrow"></i>
+                <h5>Xiaomi 12T Pro</h5>
+                <p>$999.99</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+           
+        </div>
+    
+        <div class="site-goods-sku site-goods-sku--quarter">
+            <div class="site-goods-sku__info">
+                <div class="site-goods-sku__image">
+                    <img src="./pms_1666598561.94078322!256x256.png" alt="Xiaomi 12T" loading="lazy">
+                </div>
+                <h4>Xiaomi 12T</h4>
+                <p>$899.99</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            
+        </div>
+    
+        <div class="site-goods-sku site-goods-sku--quarter">
+            <div class="site-goods-sku__info">
+                <div class="site-goods-sku__image">
+                    <img src="./pms_1666598561.94078322!256x256.png" alt="Xiaomi 12T" loading="lazy">
+                </div>
+                <h4>Xiaomi 12T</h4>
+                <p>$899.99</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+           
+        </div>
+    </section>
+    
+
+        <section id="store-section">
+            <p id="fresh-food-heading">HIPPI MOBILES</p>
+            <h3>SERVICES</h3>
+            <p id="store-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, inventore.</p>
+            <div id="store-items-wrapper">
+                <div class="store-item animated ZoomIN delay-ls">
+                    <div class="icon-wrapper"> <i class="fas fa-shield-alt"></i></div>
+                    <h3 style="padding-top: 25px;">Warenty</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, pariatur?</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper"><i class="fa-rocket fa"></i></div>
+                    <h3 style="padding-top: 25px;">High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ipsum?</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper"><i class="fa fa-box"></i></div>
+                    <h3 style="padding-top: 25px;">Free Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, earum.</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper"><i class="fab fa-weixin" sty></i></div>
+                    <h3 style="padding-top: 25px;">Fast service</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, esse.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ss" style="width: 100%; padding-top: 75px; padding-bottom: 75px; text-align: center;">
+            <p id="sd" style="color: #91ac41; font-size: 24px; margin: 0; margin-top: 35px;">HIPPI MOBILES</p>
+            <h3>Our Happy Customers</h3>
+            <p id="testimonials-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, modi similique. Doloremque praesentium aliquam tempora.</p>
+        
+            <div id="ssd" style="width: 100%; max-width: 1140px; margin: 0 auto; display: flex; align-items: center; padding-left: 150px;">
+                <div class="testimonial-item" style="width: 25%; text-align: center; background-color: #f5f6fb; padding: 40px 30px; margin: 16px; border-top-left-radius: 45px; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; transition: box-shadow 0.3s; height: 00%; box-sizing: border-box;">
+                    <img src=" https://mobirise.com/extensions/organicamp/assets/images/face6.jpg" />
+                    <p class="testimonial-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, porro eius. Non, fuga sint nam corrupti adipisci sit eius unde voluptatum ipsum animi est sed, commodi ullam placeat dolore cumque?</p>
+                    <h3 class="testimonial-by">Pdsfdf</h3>
+                </div>
+                <div class="testimonial-item" style="width: 25%; text-align: center; background-color: #f5f6fb; padding: 40px 30px; margin: 16px; border-top-left-radius: 45px; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; transition: box-shadow 0.3s; height: 00%; box-sizing: border-box;">
+                    <img src=" https://mobirise.com/extensions/organicamp/assets/images/face5.jpg" />
+                    <p class="testimonial-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, porro eius. Non, fuga sint nam corrupti adipisci sit eius unde voluptatum ipsum animi est sed, commodi ullam placeat dolore cumque?</p>
+                    <h3 class="testimonial-by">Pdsfdf</h3>
+                </div>
+                <div class="testimonial-item" style="width: 25%; text-align: center; background-color: #f5f6fb; padding: 40px 30px; margin: 16px; border-top-left-radius: 45px; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; transition: box-shadow 0.3s; height: 00%; box-sizing: border-box;">
+                    <img src="https://mobirise.com/extensions/organicamp/assets/images/face7.jpg" />
+                    <p class="testimonial-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, porro eius. Non, fuga sint nam corrupti adipisci sit eius unde voluptatum ipsum animi est sed, commodi ullam placeat dolore cumque?</p>
+                    <h3 class="testimonial-by">Pdsfdf</h3>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section id="follow-section" style="    display: flex;    justify-content: stretch;">
+            <div id="left-section">
+                <img src="./d2139d490b22e5b50e34d3902b0bfc92.webp" alt="" />
+            </div>
+            <div id="right-section">
+                <div id="text-wrapper">
+                    <h3>Follow Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, hic?.</p>
+
+                    <input id="subscribe-email" placeholder="Your Email" />
+                    <input id="subscribe-btn" type="submit" value="Subscribe" />
+                </div>
+            </div>
+        </section>
+
+        <section id="stats-section" style="padding-left: 255px;">
+            <div id="stats-wrapper">
+                <div class="stats-item">
+                    <h3>2</h3>
+                    <p>Year of experiences</p>
+                </div>
+                <div class="stats-item">
+                    <h3>13k</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stats-item" >
+                    <h3>8k</h3>
+                    <p>100% Satisfaction</p>
+                </div>
+               
+            </div>
+        </section>
+        
+        <section id="video-section">
+            <div>
+                <h3 style="padding-top: 10px;">NEW Launch</h3>
+                <div id="line-separator"></div>
+
+                <iframe frameborder="0" allowfullscreen="" src="./video-pc2-fix-new.mp4"></iframe>
+            </div>
+        </section>
+
+        <section id="address-section">
+            <div id="address-wrapper">
+                <div id="contact-us-section">
+                    <h3 class="black-headinsg" style="font-size: 25px;">Contact Us</h3>
+                    <h4 class="section-heading" >Address</h4>
+                    <p class="section-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, eum.</p>
+                </div>
+                <div id="subscribe-section">
+                    <h3 class="section-heading">Subscribe</h3>
+                    <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ut.</p>
+                    <form>
+                        <input class="input-box" type="text" name="name" placeholder="Name" />
+                        <input class="input-box" type="text" name="phone" placeholder="Phone" />
+                        
+                        <input class="input-box" type="email" name="email" placeholder="E-mail" />
+                        <textarea class="input-box" placeholder="Message"></textarea>
+                        <input id="btn-submit" class="primary-button" type="submit" value="Submit Now">
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
